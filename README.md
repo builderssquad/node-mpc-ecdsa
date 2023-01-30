@@ -45,7 +45,7 @@ Under heavy development
 
 ```sh
 
-npm i livescript -g
+npm i livescript pm2 -g
 
 lsc node.ls --help
 

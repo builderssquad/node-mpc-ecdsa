@@ -1,3 +1,1 @@
-pm2 start ./run/run1.sh
-pm2 start ./run/run2.sh
-pm2 start ./run/run3.sh
+pm2 stop all && pm2 flush && pm2 start all && pm2 logs 0
