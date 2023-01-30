@@ -6,6 +6,8 @@ A Threshold Signature Scheme is a method of creating digital signatures that all
 
 In other words, instead of just one person having the power to sign, a threshold signature scheme splits that power among multiple parties, so that a certain number of them must agree in order for the signature to be valid. This provides a more secure and decentralized way of signing, as it reduces the risk of a single point of failure or compromise.
 
+For a full background on threshold signatures please read our Binance academy article [Threshold Signatures Explained](https://academy.binance.com/en/articles/threshold-signatures-explained)
+
 ### Nodejs Wrapper for Zengo-X Multi Party Ecdsa library
 
 his project is a NodeJS implementation of {t,n}-threshold ECDSA (elliptic curve digital signature algorithm) p2p network.
@@ -16,7 +18,7 @@ Threshold ECDSA includes two protocols:
 
 * Key Generation for creating secret shares.
 * Signing for using the secret shares to generate a signature.
-ECDSA is used extensively for crypto-currencies such as Bitcoin, Ethereum (secp256k1 curve), NEO (NIST P-256 curve) and much more. This library can be used to create MultiSig and ThresholdSig crypto wallet. For a full background on threshold signatures please read our Binance academy article [Threshold Signatures Explained](https://academy.binance.com/en/articles/threshold-signatures-explained)
+ECDSA is used extensively for crypto-currencies such as Bitcoin, Ethereum (secp256k1 curve), NEO (NIST P-256 curve) and much more. 
  
 
 ### Motivation
