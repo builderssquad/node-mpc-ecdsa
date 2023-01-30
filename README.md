@@ -1,5 +1,11 @@
 # Node MPC ecdsa (Under Development)
 
+### Intro
+
+A Threshold Signature Scheme is a method of creating digital signatures that allows multiple parties to sign a document or transaction together, while requiring a minimum number of signatures to validate the signature.
+
+In other words, instead of just one person having the power to sign, a threshold signature scheme splits that power among multiple parties, so that a certain number of them must agree in order for the signature to be valid. This provides a more secure and decentralized way of signing, as it reduces the risk of a single point of failure or compromise.
+
 ### Nodejs Wrapper for Zengo-X Multi Party Ecdsa library
 
 his project is a NodeJS implementation of {t,n}-threshold ECDSA (elliptic curve digital signature algorithm) p2p network.
